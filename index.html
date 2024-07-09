@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Happy Birthday</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-5">
+        <div class="flex justify-center items-center">
+            <div class="loader">
+                <button id="play" class="bg-blue-500 text-white py-2 px-4 rounded">Start</button>
+            </div>
+        </div>
+    </div>
+    <audio class="song" controls loop class="block mx-auto my-5">
+        <source src="music.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <canvas id="confetti" class="block mx-auto my-5"></canvas>
+    <div class="main">
+        <div class="container mx-auto py-5">
+            <div class="flex flex-col items-center space-y-5">
+
+                <div class="w-full xl:w-1/2 mx-auto">
+                    <img src="img/banner.png" alt="" class="w-full">
+                </div>
+
+                <div class="text-center">
+                    <div id="name" class="area">Ghixandra!</div>
+                </div>
+
+                <div class="text-center">
+                    <div class="type-wrap text-xl">
+                        <div id="typed-strings" class="typing">
+                            <h2 class="">Happy Birthday <i id="nae">Ghixandra!</i></h2>
+                            <h2 class="text-xl ">Have a wonderful day</h2>
+                            <h2 class="text-xl ">Filled with joy and happiness.</h2>
+                            <h2 class="text-xl ">Wishing you a day filled with joy, laughter,</h2>
+                            <h2 class="text-xl ">and all the things you love the most.</h2>
+                            <h2 class="text-xl ">May this special day bring you endless happiness </h2>
+                            <h2 class="text-xl ">and may all your dreams come true.</h2>
+                            <h2 class="text-xl ">Here's to another year of amazing adventures 
+                            </h2>
+                            <h2>and unforgettable moments.</h2>
+                            <h2 class="text-xl ">Have an incredible birthday!</h2>
+                            <h2 class="text-xl ">With lots of love and best wishes,</h2>
+                        </div>
+                        <span id="typed" style="white-space:pre;"></span>
+
+                    </div>
+                    <div class="text-center type-wrap mt-5">
+                        <div>From the one who always wants you to be happy</div>
+                    </div>
+                </div>
+
+                <div class="w-full xl:w-1/4 cake  z-10">
+                    <img src="img/cake.gif" alt="" class="w-full">
+                </div>
+                <div class="w-full xl:w-1/4 relative md:hidden block">
+                    <img src="img/no-bg.png" alt="" class="w-full absolute md:-left-[244px] inset-x-0 -top-9 z-0">
+                </div>
+                <div class="w-full relative  md:block hidden w-8 h-8">
+                    <img src="img/no-bg.png" alt="" width="50%" height="40%" class="absolute left-0 top-0">
+                </div>
+
+
+            </div>
+        </div>
+        <img src="img/Balloon-Border.png" class="balloon-border" alt="nn">
+    </div>
+</body>
+<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
